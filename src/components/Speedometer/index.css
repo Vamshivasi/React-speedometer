@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #07080c;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto';
+}
+.heading {
+  font-size: 34px;
+  font-weight: 500;
+  font-style: italic;
+}
+.speedo-image {
+  width: 50%;
+}
+.speed {
+  font-weight: 600;
+}
+.Warning {
+  color: #94a3b8;
+  font-size: 12px;
+  margin: 30px;
+}
+.Accelerate {
+  color: #ffffff;
+  background-color: #0b69ff;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+}
+.break {
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+}
+
+@media (min-width: 768) {
+  .Warning {
+    font-size: 14px;
+  }
+}
